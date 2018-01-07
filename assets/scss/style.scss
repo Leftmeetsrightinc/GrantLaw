@@ -1,0 +1,21 @@
+/*
+Theme Name: Lavanya's Entrepreneur Theme
+Theme URI: https://grantlaw.ca/
+Author: Lavanya Singh
+Author URI: https://lavanyaks.com/
+Description: Entrepreneur Theme
+Version: 0.0.1
+Text Domain: entrepreneur
+Tags: wordpress
+*/
+
+// ELEMENTS
+@import "modules/includes";
+
+// BASE STYLING
+@import "variables";
+@import "mixins";
+@import "main";
+
+// TEMPLATES
+@import "templates/includes";

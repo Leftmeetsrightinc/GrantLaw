@@ -1,0 +1,19 @@
+footer {
+    margin: 0 30px;
+    padding: 10px 0;
+
+    a {
+        color: $link;
+        font-weight: $bold;
+        &:hover {
+            color: $link-hover;
+            text-decoration: none;
+        }
+    }
+
+    a:not(:last-child) {
+        &:after {
+            content: ' | ';
+        }
+    }
+}

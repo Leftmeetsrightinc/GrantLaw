@@ -1,0 +1,16 @@
+{
+  "name": "business-theme",
+  "version": "1.0.0",
+  "description": "Gulp setup for Wordpress business theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Lavanya Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.21.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
