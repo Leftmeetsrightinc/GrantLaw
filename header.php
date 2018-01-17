@@ -8,7 +8,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Blog Template for Bootstrap</title>
+	<title>Grant Law</title>
 
 	<!-- Custom styles for this template -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
@@ -31,16 +31,24 @@
 			<span><i class="fa fa-map-marker" aria-hidden="true"></i><a href="">116 Simcoe St., Suite 100, M5H 4E2</a></span>
 		</address>
 	  <div class="header-container">
-				  <div class="logo">
-						<p class="blog-title"><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></p>
-						<p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
-	  			</div>
+			<div class="logo">
+				<p class="blog-title"><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></p>
+				<p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
+			</div>
 			<nav class="blog-nav">
 				<ul>
 					<?php wp_list_pages( '&title_li=' ); ?>
 				</ul>
 			</nav>
-	  </div>
+			<div class="mobile-menu">
+				<i class="open-menu fa fa-bars" aria-hidden="true"></i>
+				<nav class="mobile-nav">
+				<ul>
+					<?php wp_list_pages( '&title_li=' ); ?>
+				</ul>
+			</nav>
+			</div>
+		</div> <!-- /.header-container -->
 	</header>
 
 	<main class="container">

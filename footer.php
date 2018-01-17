@@ -8,5 +8,6 @@
       </div>
     </footer>
     <script src="https://use.fontawesome.com/c4a772538f.js"></script>
+    <script src="<?php echo get_bloginfo('template_directory'); ?>/assets/js/main.js"></script>
   </body>
 </html>
