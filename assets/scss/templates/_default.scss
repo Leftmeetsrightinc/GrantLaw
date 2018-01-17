@@ -1,0 +1,21 @@
+.default {
+        padding: 30px;
+
+    .blog-main, .blog-sidebar {
+        float: left;
+    }
+
+    .blog-main {
+        margin-right: 5%;
+        width: 61.66%;
+    }
+
+    .blog-sidebar {
+        padding-right: 10%;
+        width: 33.33%;
+    }
+
+    article {
+        margin: 40px 0;
+    }
+}

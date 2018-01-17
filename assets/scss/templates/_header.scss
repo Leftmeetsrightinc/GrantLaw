@@ -9,6 +9,10 @@ header {
         border-bottom: 1px solid $border;
     }
 
+    p {
+        margin: 0;
+    }
+
     span {
         margin-right: 15px;
     }
@@ -17,6 +21,15 @@ header {
         margin-right: 5px;
         &:before {
             line-height: 17px;
+        }
+    }
+
+    a {
+        color: $link;
+
+        &:hover {
+            color: $link-hover;
+            text-decoration: none;
         }
     }
 
@@ -48,6 +61,8 @@ header {
 
         li {
             display: inline-block;
+            font-size: 14px;
+            font-weight: $bold;
             padding: 5px 10px;
         }
     }
@@ -59,18 +74,18 @@ header {
 
         &:hover {
             .children {
+                background: rgba(255, 255, 255, 0.9);
+                border-top: 5px solid;
                 display: block;
                 margin: 0 0 0 -15px;
                 padding: 0;
                 position: absolute;
-                top: 40px;
+                top: 50px;
             }
             li {
+                display: block;
                 list-style-type: none;
-                padding: 8px 15px;
-            }
-            li:not(:last-child) {
-                border-bottom: 1px solid $border;
+                padding: 12px 30px;
             }
         }
     }
