@@ -1,7 +1,7 @@
 <?php /* Template Name: With-sidebar Template */ ?>
 
 <?php get_header(); ?>
-	<div class="with-sidebar-page row">
+	<div class="default with-sidebar-page row">
 	
 	<div class="">
 	

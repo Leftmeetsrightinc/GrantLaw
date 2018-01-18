@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<div class="default row">
+	<div class="default blog row">
 	
 	<div class="blog-main">
 

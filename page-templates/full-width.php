@@ -2,7 +2,7 @@
 
 <?php get_header(); ?>
 
-	<div class="full-width-page row">
+	<div class="default full-width-page row">
 		<div class="">
 
 			<?php 
