@@ -15,9 +15,10 @@ div {
 }
 
 a {
-    color: $link-hover;
+    color: $link;
     text-decoration: none;
     &:hover {
+        color: $link-hover;
         text-decoration: underline;
     }
 }
@@ -42,6 +43,7 @@ button, .call-to-action {
 
     &:hover {
         background-color: $button-hover-bg;
+        color: $text-light;
     }
 
     &:focus, &:active {

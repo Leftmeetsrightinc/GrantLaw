@@ -3,9 +3,9 @@ header {
     
     address {
         background-color: $nav-pre-bg;
-        font-size: 14px;
+        font-size: 13px;
         font-style: normal;
-        padding: 20px 40px;
+        padding: 15px 40px;
         border-bottom: 1px solid $border;
     }
     
@@ -114,6 +114,13 @@ header {
     }
     
     @media screen and (max-width: 768px) {
+        address {
+            span {
+                display: inline-block;
+                margin: 5px 15px 5px 0;
+            }
+        }
+
         .header-container {
             position: relative;
         }
