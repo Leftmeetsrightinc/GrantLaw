@@ -3,7 +3,7 @@
 <?php get_header(); ?>
 	<div class="default with-sidebar-page row">
 	
-	<div class="">
+	<div class="blog-main">
 	
 	<?php 
 			if ( have_posts() ) : while ( have_posts() ) : the_post();

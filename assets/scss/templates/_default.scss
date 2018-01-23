@@ -6,19 +6,26 @@
     }
 
     .blog-main {
-        margin-right: 5%;
-        width: 61.66%;
+        width: 66.66%;
     }
 
     article {
-        margin: 40px 0;
+        margin: 40px 0 0;
         position: relative;
+    }
+
+    .type-header .article-content {
+        width: 100%;
+
+        .blog-post-meta {
+            display: none;
+        }
     }
 
     .article-content {
         float: right;
         width: 60%;
-        margin-left: 6.66%;
+        margin: 0 0 40px 6.66%;
     }
 
     .blog-post-meta {
@@ -30,7 +37,7 @@
     }    
 
     .blog-sidebar {
-        padding-right: 10%;
+        padding-left: 5%;
         width: 33.33%;
     }
 }
