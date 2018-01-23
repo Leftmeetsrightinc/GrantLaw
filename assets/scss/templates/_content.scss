@@ -1,0 +1,13 @@
+.blog-post {
+    a {
+        color: $content-link;
+
+        &:hover {
+            color: $content-link-hover;
+        }
+    }
+
+    .call-to-action, .call-to-action:hover {
+        color: $text-light;
+    }
+}

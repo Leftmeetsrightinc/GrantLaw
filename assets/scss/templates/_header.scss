@@ -113,50 +113,62 @@ header {
         }
     }
     
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {  
         address {
             span {
                 display: inline-block;
                 margin: 5px 15px 5px 0;
             }
         }
-
+        
         .header-container {
+            padding: 0;
             position: relative;
+        }
+        .logo {
+            padding: 10px 20px;
         }
         .blog-nav {
             display: none;
         }
         .mobile-menu {
             display: block;
-
+            
             .mobile-nav {
                 display: none;
             }
-
+            
             &.open .mobile-nav {
-            display: block;
-            float: none;
-            padding: 16px 0;
-            
-            li {
                 display: block;
-                padding: 5px 0;
-            }
-            
-            .page_item_has_children {
+                float: none;
+                padding: 5px 20px;
+                background-color: $mobile-nav-bg;
                 
-                .children {
-                    margin: 8px 0 0;
-                    padding: 0;
-                }
-                li {
+                li:not(.page_item_has_children) {
+                    border-bottom: 1px solid $mobile-nav-border;
                     display: block;
-                    list-style-type: none;
-                    padding: 8px 0;
+                    padding: 12px 0;
+                    position: relative;
+                }
+                
+                .page_item_has_children {
+                    padding: 0;
+                    width: 100%;
+                    
+                    & > a {
+                        display: none;
+                    }
+                    
+                    .children {
+                        padding: 0;
+                    }
+                    li {
+                        display: block;
+                        list-style-type: none;
+                        padding: 12px 0;
+                    }
                 }
             }
-        }
         }
         .open-menu {
             right: 0;
