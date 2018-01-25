@@ -5,8 +5,8 @@
     <div class="article-content">
       <h1 class="blog-post-title"><?php the_title(); ?></h1>
       <div class="blog-all-content">
-        <p class="blog-post-meta"><?php the_time('F j, Y') ?>
-        <!-- by <a href="#"><?php the_author(); ?></a> -->
+        <p class="blog-post-meta"><?php the_time('F j, Y') ?></p>
+        
         <div class="blog-text-content">
           <?php the_content(); ?>
         </div>
