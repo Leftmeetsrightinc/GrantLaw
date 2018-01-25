@@ -5,7 +5,7 @@
     <div class="article-content">
       <h1 class="blog-post-title"><?php the_title(); ?></h1>
       <div class="blog-all-content">
-        <p class="blog-post-meta"><?php the_time('F j, Y') ?></p>
+        <p class="blog-post-meta"><?php the_time('F, Y') ?></p>
         
         <div class="blog-text-content">
           <?php the_content(); ?>
