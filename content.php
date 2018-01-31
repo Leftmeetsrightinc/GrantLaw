@@ -4,7 +4,7 @@
 
     <div class="article-content">
 
-    <?php if (is_home() && !is_front_page()) : ?>
+    <?php if (!is_front_page()) : ?>
       <h1 class="blog-post-title"><?php the_title(); ?></h1>
     <?php endif; ?>
       <div class="blog-all-content">

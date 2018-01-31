@@ -33,12 +33,13 @@ button, input {
     padding: 15px 10px;
 }
 
-button, .call-to-action {
+button, .call-to-action, input[type=submit] {
     background-color: $button-bg;
+    border: none;
     color: $text-light;
     display: inline-block;
     margin: 30px 0;
-    padding: 20px;
+    padding: 11px 20px;
     width: auto;
 
     &:hover {
@@ -51,10 +52,20 @@ button, .call-to-action {
     }
 }
 
+input[type=text] {
+    padding: 9px 10px;
+}
+
 input {
-    border-style: groove;
+    font-size: 16px;
 
     &:focus {
         outline: none;
+    }
+}
+
+form {
+    input[type=submit] {
+        margin: 0;
     }
 }
