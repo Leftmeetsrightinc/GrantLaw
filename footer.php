@@ -3,8 +3,8 @@
 
 		<footer class="blog-footer">
       <div>
-        <a href="">Privacy Policy</a>
-        <a href="">Contact Us</a>
+        <span class="copyright">Copyright © 2018 Grant Law LLP All rights reserved</span>
+        <span class="made-by">Made with love by </span><a href="https://leftmeetsrightinc.com">Left meets Right Inc.</a>
       </div>
     </footer>
     <script src="https://use.fontawesome.com/c4a772538f.js"></script>
