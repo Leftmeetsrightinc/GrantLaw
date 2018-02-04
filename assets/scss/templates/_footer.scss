@@ -7,18 +7,16 @@ footer {
         font-size: 14px;
     }
 
+    .made-by {
+        float: right;
+    }
+
     a {
         color: $link;
         font-weight: $bold;
         &:hover {
             color: $link-hover;
             text-decoration: none;
-        }
-    }
-
-    .copyright {
-        &:after {
-            content: ' | ';
         }
     }
 }

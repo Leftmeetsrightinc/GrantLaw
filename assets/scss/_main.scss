@@ -52,12 +52,9 @@ button, .call-to-action, input[type=submit] {
     }
 }
 
-input[type=text] {
-    padding: 9px 10px;
-}
-
 input {
     font-size: 16px;
+    padding: 9px 10px;
 
     &:focus {
         outline: none;
