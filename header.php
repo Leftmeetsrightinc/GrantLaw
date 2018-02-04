@@ -28,7 +28,7 @@
 		<address>
 			<span><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+1(416)-977-5334">(416)-977-5334</a></span>
 			<span><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:igrant@simcoechambers.com">igrant@simcoechambers.com</a></span>
-			<span><i class="fa fa-map-marker" aria-hidden="true"></i><a href="">116 Simcoe St., Suite 100, M5H 4E2</a></span>
+			<span><i class="fa fa-map-marker" aria-hidden="true"></i><a href="https://goo.gl/maps/Ciwx8ZvhzL42" target="_blank" rel="noopener">116 Simcoe St., Suite 100, M5H 4E2</a></span>
 		</address>
 	  <div class="header-container">
 			<div class="logo">
