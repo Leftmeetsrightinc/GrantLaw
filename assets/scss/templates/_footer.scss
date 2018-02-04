@@ -19,4 +19,15 @@ footer {
             text-decoration: none;
         }
     }
+
+    @media screen and (max-width: 768px) {
+        .copyright, .made-by {
+            display: block;
+            float: none;
+        }
+
+        .copyright {
+            margin-bottom: 10px;
+        }
+    }
 }
