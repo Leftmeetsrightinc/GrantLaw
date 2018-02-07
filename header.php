@@ -4,9 +4,9 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<meta name="description" content="">
-	<meta name="author" content="">
+	
+	<meta name="description" content="Looking for an experienced and successful criminal defence lawyer in Toronto? Ingrid Grant specializes in all areas of criminal law. Call today (416) 977-5334.">
+	<meta name="author" content="Left meets Right Inc.">
 
 	<title>Grant Law</title>
 
